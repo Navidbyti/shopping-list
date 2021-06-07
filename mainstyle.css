@@ -1,1 +1,48 @@
-/*Writing stuff so i can push to github*/
+body{
+    color: white;
+    background-image: linear-gradient(to right, rgb(26, 19, 39), rgb(41, 26, 70));
+    text-align: center;
+}
+
+.shopping-items{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    text-align: left;
+}
+.list-item{
+    width: 100%;
+    background-color: rgb(224, 213, 54);
+    border-radius: 50px;
+    color: black;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.list-item > button{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: right;
+    float: right;
+}
+
+.text-input{
+    width: 50%;
+    left: 50%;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.submit-btn{
+    padding: 10px;
+}
+
+label{
+    font-size: 30px;
+    
+}
