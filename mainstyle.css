@@ -46,3 +46,7 @@ label{
     font-size: 30px;
     
 }
+.list-item::marker{
+    color: rgb(224, 213, 54);
+    
+}
